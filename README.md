@@ -9,7 +9,7 @@ Before launching the `bot_spawn` package, make sure you have the following ROS 2
 sudo apt update
 ```
 ```bash
-sudo apt install ros-humble-gazebo-ros-pkgs ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gazebo-ros2-control ros-humble-slam-toolbox ros-humble-navigation2 ros-humble-xacro python3-colcon-common-extensions
+sudo apt install ros-$ROS_DISTRO-gazebo-ros-pkgs ros-$ROS_DISTRO-ros2-control ros-$ROS_DISTRO-ros2-controllers ros-$ROS_DISTRO-gazebo-ros2-control ros-$ROS_DISTRO-slam-toolbox ros-$ROS_DISTRO-navigation2 ros-$ROS_DISTRO-xacro python3-colcon-common-extensions
 ```
 ## Installation
 
