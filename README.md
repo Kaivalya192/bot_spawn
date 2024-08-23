@@ -36,3 +36,8 @@ To launch the Gazebo simulation with the robot model, execute the following comm
 
 ```bash
 ros2 launch bot_spawn gazebo.launch.py
+```
+To launch teleop:
+```bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
+```
