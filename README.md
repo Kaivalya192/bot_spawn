@@ -28,6 +28,7 @@ To install and utilize the `bot_spawn` package, follow these steps:
     ```bash
     source install/setup.bash
     ```
+5. **Download Models For Gazebo:(61mb)** extract this [models.zip](https://drive.google.com/file/d/1-vp-h2SC5LAaBPh5dM73qWktby505QeP/view?usp=sharing) to `/home/.gazebo/` name the folder **models**.
 
 ## Usage
 
